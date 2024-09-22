@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    background-color: rgba(214, 15, 191, 0.683);
+    /* display: inline-block; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  h2 {
+    text-align: center;
+  }
+  .container {
+    /* margin-top: 100px; */
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(135, 207, 235, 0.922);
+    
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    box-shadow: 5px 5px 10px #000000;
+  }
+  h2{
+    color: rgba(0, 0, 0, 0.47);
+    background-color: aqua;    
+  }
+  .container input{
+  }
+  label {
+    font-size: 22px;
+    margin-left: 100px;
+  }
+  input {
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 100px;
+    /* padding: 4px; */
+    border-radius: 10px;
+    /* text-align: center; */
+    background-color: rgba(169, 169, 169, 0.309);
+    outline: none;
+    color: rgba(12, 91, 122, 0.806);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+  }
+  input:hover {
+    border-color: #000000;
+  }
+  
+  button {
+    background-color: lightseagreen;
+    margin-top: 10px;
+    color: black;
+    width: 100px;
+    padding: 5px 0px 5px 0px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 150px;
+  }
+  button:hover {
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: lightseagreen 10px 0px 5px;
+    /* background-color: #5cb89c; */
+    cursor: pointer;
+  }
